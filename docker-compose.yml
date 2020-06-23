@@ -1,0 +1,12 @@
+version: '2.0'
+services:
+  web:
+    image: nginx
+    ports:
+    - "80:80"
+    links:
+    - hello
+  hello:
+    build: .
+	  ports:
+	  - "8080:80"
