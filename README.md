@@ -1,2 +1,0 @@
-# tpc
-Technology for cloud
